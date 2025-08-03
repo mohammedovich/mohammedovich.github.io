@@ -5,12 +5,10 @@ summary: Azure Virtual WAN and Azure Firewall offer a powerful way to build secu
 date: 2025-08-03
 cardimage: photo1-card.jpeg
 featureimage: photo1.jpeg
-caption: Image caption
+caption: 
 authors:
-  - Mohammed: author.jpeg
+  - Mohammed: author.png
 ---
-
-# Navigating the limitations of Azure Firewall with Azure Virtual WAN
 
 Azure Virtual WAN is a managed transit network service that abstracts away the complexity of building a global network fabric.  VNets, branches and remote users connect to a hub via VNet connections, **ExpressRoute**, **site‑to‑site VPN** and **point‑to‑site VPN**.  The hub in turn provides any‑to‑any connectivity through Microsoft’s backbone.  In a typical deployment the hub also becomes a **secure virtual hub** by enabling an Azure Firewall or a third‑party network virtual appliance (NVA).  The following diagram from Microsoft’s documentation shows the core concept—a Virtual WAN hub sits in the centre while VNets, on‑premises branches and remote users connect via various gateways.
 
@@ -64,14 +62,3 @@ Some Azure Firewall quirks surprised me.  DNAT rules can’t use private IP add
 ## Final thoughts
 
 Azure Virtual WAN and Azure Firewall make it easier to build a secure, globally connected network.  However, the **integration is opinionated**.  You must deploy a firewall per hub, plan your routing policies carefully and accept that certain advanced scenarios—like chaining an SD‑WAN appliance with the firewall—aren’t supported.  By understanding these constraints ahead of time and building your design around them, you can avoid costly redeployments and deliver a robust, scalable network for your organisation.
-
-## References
-
-1. **Virtual WAN network topology – Design considerations**. Microsoft Learn article describing how Virtual WAN hubs connect VNets, branches and remote users via ExpressRoute and VPN. Lines 79–92 explain the any‑to‑any connectivity provided by the hub.
-2. **Routing policies in Virtual WAN**. Microsoft Learn documentation on routing intent and policies for Internet and private traffic. Lines 150‑169 describe how the Internet and private traffic policies work and note that each hub can have only one policy per traffic type.
-3. **Secured Virtual Hub limitations – Availability zones**. The Virtual WAN FAQ notes that you cannot enable availability zones on an existing Azure Firewall; redeployment is required.
-4. **Secured Virtual Hub limitations – Firewall per hub**. The same FAQ states that you can’t share a firewall across hubs. Custom routes pointing to a firewall in a different hub will fail.
-5. **Default route propagation**. The FAQ also clarifies that a default route (0.0.0.0/0) learned via Azure Firewall propagates only within the local hub and does not cross hubs.
-6. **Routing intent known limitations**. Microsoft Learn’s routing intent documentation lists several limitations: you cannot chain an SD‑WAN NVA and Azure Firewall in the same hub, routing intent is unavailable in some Azure regions, and static routes on VNet connections aren’t applied to the next‑hop resource.
-7. **Combining Azure Firewall and an NVA is not supported**. A CloudNation case study reports that peering a VNet with an NVA back to a secured hub doesn’t work; Microsoft does not support sending traffic from a peered VNet through Azure Firewall and back to an NVA.
-8. **Azure Firewall known issues**. The Azure Firewall known issues page lists general limitations: network filtering isn’t available for protocols other than TCP/UDP on outbound traffic, DNAT rules cannot use private IPs, and a firewall cannot be moved between resource groups or subscriptions.
