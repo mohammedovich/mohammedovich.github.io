@@ -5,7 +5,7 @@ summary: This blog post provides a practical comparison between Microsoft Azure 
 date: 2025-08-03
 cardimage: azure-vs-aws.jpeg
 featureimage: azure-vs-aws.jpeg
-caption:       
+caption:
 authors:
   - Mohammed: author.png
 ---
