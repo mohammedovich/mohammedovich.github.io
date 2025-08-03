@@ -13,6 +13,4 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
-services:
-  googleAnalytics:
-    id: G-HQF32ZVXNL
+googleAnalytics: G-HQF32ZVXNL

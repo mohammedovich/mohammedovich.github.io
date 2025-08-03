@@ -4,10 +4,10 @@
 
 author:
   name: Mohammed Ibrahim
-  description: "Software Engineer, Open Source Enthusiast, and Blogger"
   image: author.png
   greeting: "Welcome to my blog :tada:"
   icon: ":wave:"
+
 
 ############################
 ## Links
@@ -69,6 +69,8 @@ title: mohammedovich.github.io
 description: "Site build with Qubt & Hugo"
 images:
   - thumbnail.png
+
+googleAnalyticsAsync: false
 
 analytics:
   google:
