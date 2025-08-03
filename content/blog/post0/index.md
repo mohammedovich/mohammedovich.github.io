@@ -10,6 +10,8 @@ authors:
   - Mohammed: author.png
 ---
 
+
+
 Azure Virtual WAN is a managed transit network service that abstracts away the complexity of building a global network fabric.  VNets, branches and remote users connect to a hub via VNet connections, **ExpressRoute**, **site‑to‑site VPN** and **point‑to‑site VPN**.  The hub in turn provides any‑to‑any connectivity through Microsoft’s backbone.  In a typical deployment the hub also becomes a **secure virtual hub** by enabling an Azure Firewall or a third‑party network virtual appliance (NVA).  The following diagram from Microsoft’s documentation shows the core concept—a Virtual WAN hub sits in the centre while VNets, on‑premises branches and remote users connect via various gateways.
 
 ![Virtual WAN transit network showing branches, ExpressRoute, site‑to‑site VPN and VNets connecting to a central Virtual WAN hub](images/vwan.png)
