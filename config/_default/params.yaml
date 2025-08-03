@@ -1,3 +1,12 @@
+googleAnalyticsID: G-HQF32ZVXNL
+services:
+  googleAnalytics:
+    id: G-HQF32ZVXNL
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
+
 ############################
 ## Author
 ############################
@@ -17,7 +26,7 @@ links:
   - github: https://github.com/mohammedovich/mohammedovich.github.io
   - link: https://github.com/mohammedovich/mohammedovich.github.io#readme
   # - website: 
-  # - x-twitter: 
+  - x-twitter: https://x.com/mohammedovich
   # - mastodon: 
   # - linkedin: 
   # - instagram: 
@@ -69,9 +78,3 @@ title: mohammedovich.github.io
 description: "Site build with Qubt & Hugo"
 images:
   - thumbnail.png
-
-googleAnalyticsAsync: false
-
-analytics:
-  google:
-    SiteVerificationTag: G-HQF32ZVXNL
