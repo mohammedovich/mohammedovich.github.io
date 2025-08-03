@@ -69,3 +69,7 @@ title: mohammedovich.github.io
 description: "Site build with Qubt & Hugo"
 images:
   - thumbnail.png
+
+analytics:
+  google:
+    SiteVerificationTag: G-HQF32ZVXNL

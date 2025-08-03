@@ -13,3 +13,5 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
+googleAnalytics: G-HQF32ZVXNL
+
