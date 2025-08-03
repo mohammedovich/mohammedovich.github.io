@@ -5,7 +5,7 @@ type: misc
 # change these
 jobTitle: Senior Lead Cloud/Software Engineer
 name: Mohammed Ibrahim
-bio: true
+bio: false
 icon: ":coffee:"
 ---
 
