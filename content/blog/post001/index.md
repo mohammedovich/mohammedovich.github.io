@@ -1,5 +1,5 @@
 ---
-title: Azure vs AWS: Understanding the Constructs and Concepts Across Cloud Providers
+title: "Azure vs AWS: Understanding the Constructs and Concepts Across Cloud Providers"
 subtitle: "Translating Cloud Concepts Between Azure and AWS for Engineers and Architects :arrows_counterclockwise:"
 summary: This blog post provides a practical comparison between Microsoft Azure and Amazon Web Services (AWS), focusing on how each platform structures its core cloud constructs. Aimed at cloud engineers, DevOps professionals, and architects, it breaks down key service categories—compute, storage, networking, identity, monitoring, and infrastructure as code—highlighting how similar concepts are implemented differently across the two clouds. With side-by-side tables and a downloadable cheat sheet, the post serves as a translation guide to help engineers confidently navigate both environments by understanding not just the terminology, but the design philosophies behind each platform.
 date: 2025-08-03
