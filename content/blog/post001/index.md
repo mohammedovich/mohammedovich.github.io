@@ -9,15 +9,12 @@ caption:
 authors:
   - Mohammed: author.png
 ---
-#
 
 # Azure vs AWS: Understanding the Constructs and Concepts Across Cloud Providers
 
 When working across cloud platforms, it’s common to hit a wall of terminology confusion. Microsoft Azure and Amazon Web Services (AWS) offer similar capabilities—compute, storage, networking, identity, security—but they often use different names, approaches, and abstractions for the same underlying concepts.
 
 For cloud engineers, architects, or DevOps professionals who juggle both environments (or are transitioning from one to the other), understanding these conceptual mappings is essential. In this post, we’ll walk through the key constructs of Azure and AWS side by side, helping you translate your knowledge across platforms.
-
----
 
 ## ☁️ Account Hierarchy and Resource Organization
 
@@ -27,8 +24,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Subdivision for resources | Subscription | Organizational Units (OUs) / multiple Accounts |
 | Resource grouping | Resource Group | Tags, CloudFormation stacks |
 | Management across multiple entities | Management Groups | AWS Organizations |
-
----
 
 ## 💻 Compute
 
@@ -40,8 +35,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | App hosting (PaaS) | App Service | Elastic Beanstalk, App Runner |
 | Serverless compute | Azure Functions | AWS Lambda |
 
----
-
 ## 📦 Storage
 
 | Concept | Azure | AWS |
@@ -50,8 +43,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | File Storage | Azure Files | EFS |
 | Disk Storage | Managed Disks | EBS |
 | Archive Storage | Cool/Archive Blob Tiers | S3 Glacier |
-
----
 
 ## 🔗 Networking
 
@@ -63,8 +54,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Load Balancer | Azure Load Balancer, Application Gateway | Elastic Load Balancer (ELB) |
 | DNS | Azure DNS, Traffic Manager | Route 53 |
 
----
-
 ## 🔐 Identity and Access Management (IAM)
 
 | Concept | Azure | AWS |
@@ -74,8 +63,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Federated Identity | AAD B2B/B2C | Cognito, STS |
 | Service identity | Managed Identity | IAM Role (EC2 Profile / Task Role) |
 
----
-
 ## 🛠️ Infrastructure as Code (IaC)
 
 | Concept | Azure | AWS |
@@ -84,8 +71,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Cross-platform IaC | Terraform, Pulumi, Ansible | Same |
 | Resource deployment model | Declarative (ARM/Bicep) | Declarative (CloudFormation) |
 
----
-
 ## 🔍 Monitoring & Observability
 
 | Concept | Azure | AWS |
@@ -93,8 +78,6 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Metrics & Logs | Azure Monitor, Log Analytics | CloudWatch, CloudTrail |
 | Application performance | Application Insights | X-Ray, CloudWatch APM |
 | Cost analysis | Cost Management + Billing | Cost Explorer, Budgets |
-
----
 
 ## 🧠 Summary Table: Azure to AWS Translation Cheat Sheet
 
@@ -113,12 +96,8 @@ For cloud engineers, architects, or DevOps professionals who juggle both environ
 | Azure Monitor | CloudWatch |
 | Bicep | CloudFormation / CDK |
 
----
-
 ## 🧭 Final Thoughts
 
 Both Azure and AWS provide robust cloud ecosystems capable of running virtually any workload. The core difference lies in how they abstract and organize their services. Azure tends to favor integrated, centralized constructs with clear hierarchies, while AWS emphasizes modularity, isolation, and flexibility.
 
 For engineers straddling both worlds, it’s not just about mapping service names—it’s about understanding the philosophy behind each platform. Once you internalize that, the clouds stop looking like rivals and start feeling like different dialects of the same powerful language.
-
----
