@@ -1,0 +1,49 @@
+{{ $giscusLang := "en" }} {{ if eq site.Language.Lang "zh" }} {{ $giscusLang =
+"zh-CN" }} {{ else if eq site.Language.Lang "zh-tw" }} {{ $giscusLang = "zh-TW"
+}} {{ else if eq site.Language.Lang "zh-hk" }} {{ $giscusLang = "zh-HK" }} {{
+else if eq site.Language.Lang "ar" }} {{ $giscusLang = "ar" }} {{ else if eq
+site.Language.Lang "be" }} {{ $giscusLang = "be" }} {{ else if eq
+site.Language.Lang "bg" }} {{ $giscusLang = "bg" }} {{ else if eq
+site.Language.Lang "ca" }} {{ $giscusLang = "ca" }} {{ else if eq
+site.Language.Lang "cs" }} {{ $giscusLang = "cs" }} {{ else if eq
+site.Language.Lang "da" }} {{ $giscusLang = "da" }} {{ else if eq
+site.Language.Lang "de" }} {{ $giscusLang = "de" }} {{ else if eq
+site.Language.Lang "el" }} {{ $giscusLang = "gr" }} {{ else if eq
+site.Language.Lang "eo" }} {{ $giscusLang = "eo" }} {{ else if eq
+site.Language.Lang "es" }} {{ $giscusLang = "es" }} {{ else if eq
+site.Language.Lang "eu" }} {{ $giscusLang = "eu" }} {{ else if eq
+site.Language.Lang "fa" }} {{ $giscusLang = "fa" }} {{ else if eq
+site.Language.Lang "fr" }} {{ $giscusLang = "fr" }} {{ else if eq
+site.Language.Lang "he" }} {{ $giscusLang = "he" }} {{ else if eq
+site.Language.Lang "hu" }} {{ $giscusLang = "hu" }} {{ else if eq
+site.Language.Lang "id" }} {{ $giscusLang = "id" }} {{ else if eq
+site.Language.Lang "it" }} {{ $giscusLang = "it" }} {{ else if eq
+site.Language.Lang "ja" }} {{ $giscusLang = "ja" }} {{ else if eq
+site.Language.Lang "km" }} {{ $giscusLang = "kh" }} {{ else if eq
+site.Language.Lang "ko" }} {{ $giscusLang = "ko" }} {{ else if eq
+site.Language.Lang "nl" }} {{ $giscusLang = "nl" }} {{ else if eq
+site.Language.Lang "pl" }} {{ $giscusLang = "pl" }} {{ else if eq
+site.Language.Lang "pt" }} {{ $giscusLang = "pt" }} {{ else if eq
+site.Language.Lang "ro" }} {{ $giscusLang = "ro" }} {{ else if eq
+site.Language.Lang "ru" }} {{ $giscusLang = "ru" }} {{ else if eq
+site.Language.Lang "th" }} {{ $giscusLang = "th" }} {{ else if eq
+site.Language.Lang "tr" }} {{ $giscusLang = "tr" }} {{ else if eq
+site.Language.Lang "uk" }} {{ $giscusLang = "uk" }} {{ else if eq
+site.Language.Lang "uz" }} {{ $giscusLang = "uz" }} {{ else if eq
+site.Language.Lang "vi" }} {{ $giscusLang = "vi" }} {{ end }}
+
+<script src="https://giscus.app/client.js"
+        data-repo="mohammedovich/mohammedovich.github.io"
+        data-repo-id="R_kgDOPXTuNA"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOPXTuNM4CtuuK"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="{{ $giscusLang }}"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -79,24 +79,5 @@ description: "Site built with Qubt & Hugo"
 images:
   - thumbnail.png
 
-
-features:
-  comment:
-    provider: 'giscus'
-  disqus:
-    shortname: ''
-    show_count: 
-  commento:
-    url: 
-    giscus:
-      repo: "mohammedovich/mohammedovich.github.io"
-      repoID: "R_kgDOPXTuNA"
-      category: "Announcements"
-      category_id: "DIC_kwDOPXTuNM4CtuuK"
-      mapping: "pathname"  # How Utterances will match comment to page
-      label: "comment"     # Label applied to issue by utteranc.es bot
-      theme: "preferred_color_scheme"        # What theme to use
-      reactions_enabled: "1"
-      loading: "lazy"
-      inputPosition: "bottom"
-      emitMetadata: "0"
+params:
+  comments: true
