@@ -13,23 +13,18 @@
         crossorigin="anonymous"
         async>
 </script> -->
-<h1>MOHAMMED IBRAHIM !@£$$$$</h1>
-{{- if isset .Site.Params "giscus" -}}
-  {{- if and (isset .Site.Params.giscus "repo") (not (eq .Site.Params.giscus.repo "" )) (eq (.Params.disable_comments | default false) false) -}}
-  <script src="https://giscus.app/client.js"
-    data-repo="{{ .Site.Params.giscus.repo }}"
-    data-repo-id="{{ .Site.Params.giscus.repoID }}"
-    data-category="{{ .Site.Params.giscus.category }}"
-    data-category-id="{{ .Site.Params.giscus.categoryID }}"
-    data-mapping="{{ default "pathname" .Site.Params.giscus.mapping }}"
-    data-reactions-enabled="{{ default "1" .Site.Params.giscus.reactionsEnabled }}"
-    data-emit-metadata="{{ default "0" .Site.Params.giscus.emitMetadata }}"
-    data-input-position="{{ default "bottom" .Site.Params.giscus.inputPosition }}"
-    data-theme="{{ default "light" .Site.Params.giscus.theme }}"
-    data-lang="{{ default "en" .Site.Params.giscus.lang }}"
-    data-loading="{{ default "lazy" .Site.Params.giscus.loading }}"
-    crossorigin="anonymous"
-    async>
-  </script>
-  {{- end -}}
-{{- end -}}
+
+{{ if site.Params.features.comment.giscus }}
+<script src="https://giscus.app/client.js"
+        data-repo="{{site.Params.features.comment.giscus.repo}}"
+        data-repo-id="{{site.Params.features.comment.giscus.repo_id}}"
+        data-category="{{site.Params.features.comment.giscus.category}}"
+        data-category-id="{{site.Params.features.comment.giscus.category_id}}"
+        data-mapping="{{site.Params.features.comment.giscus.mapping}}"
+        data-reactions-enabled="{{site.Params.features.comment.giscus.reactions_enabled}}"
+        data-theme="{{site.Params.features.comment.giscus.theme}}"
+        crossorigin="anonymous"
+        async>
+</script>
+<noscript>Please enable JavaScript to view the comments powered by giscus.</noscript>
+{{ end }}
