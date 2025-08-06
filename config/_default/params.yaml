@@ -78,3 +78,18 @@ title: mohammedovich.github.io
 description: "Site build with Qubt & Hugo"
 images:
   - thumbnail.png
+
+giscus:
+  enable: true
+  repo: "mohammedovich/mohammedovich.github.io"
+  repoID: "R_kgDOPXTuNA"
+  category: "Q&A"
+  categoryID: "DIC_kwDOPXTuNM4CtuuK"
+  mapping: "pathname"
+  reactionsEnabled: "1"
+  emitMetadata: "0"
+  inputPosition: "bottom"
+  theme: "preferred_color_scheme"
+  lang: "en"
+  loading: "lazy"
+  crossorigin: "anonymous"
