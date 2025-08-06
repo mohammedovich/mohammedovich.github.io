@@ -1,7 +1,8 @@
 ---
 title: "Mastering Azure Bicep: Complex Examples, Step-by-Step Deployment, and a Real Comparison with Terraform"
-subtitle: A deep dive into Azure Bicep with real-world examples, deployment walkthroughs, and an honest comparison with Terraform for modern cloud engineers.
-date: 2025-08-07
+subtitle: ":bricks: A deep dive into Azure Bicep with real-world examples, deployment walkthroughs, and an honest comparison with Terraform for modern cloud engineers."
+summary: If you’re working with Azure and looking to level up your Infrastructure as Code game, this post is for you. We take a deep dive into Azure Bicep, showing how to build out a real-world, scalable infrastructure — including virtual networks, VM scale sets, and storage — all with clean, modular Bicep templates. You’ll also get a simple, step-by-step guide to deploying it using the Azure CLI. And for those wondering how Bicep stacks up against Terraform, we’ve got a side-by-side comparison to help you decide what’s right for your projects. Whether you're just getting started or ready to move beyond ARM templates, this guide will help you build smarter in the cloud.
+date: 2025-08-06
 cardimage: bicep.jpeg
 featureimage: bicep.jpeg
 caption:
