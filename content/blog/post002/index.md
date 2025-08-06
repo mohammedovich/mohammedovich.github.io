@@ -13,13 +13,9 @@ authors:
 
 *A deep dive into Azure Bicep with real-world examples, deployment walkthroughs, and an honest comparison with Terraform for modern cloud engineers.*
 
----
-
 Infrastructure as Code (IaC) is the cornerstone of modern cloud development, allowing software engineers, DevOps teams, and cloud architects to deploy and manage resources consistently, securely, and efficiently. Microsoft Azure's native IaC language — **Bicep** — is quickly becoming a go-to tool for engineers who want native support, clean syntax, and tight integration with ARM templates.
 
 In this post, we’ll explore **Azure Bicep**, walk through **complex examples**, provide a **step-by-step guide to write and publish Bicep templates**, and finally, **compare Bicep with Terraform**, the widely-adopted multi-cloud alternative.
-
----
 
 ## 🚀 What is Azure Bicep?
 
@@ -32,8 +28,6 @@ Bicep is a **domain-specific language (DSL)** for deploying Azure resources decl
 - ✅ No state file management  
 - ✅ Full parity with ARM templates  
 - ✅ Native integration with Azure RBAC and policies
-
----
 
 ## 🧠 Complex Azure Bicep Example: Deploying a Scalable Web Application
 
@@ -55,8 +49,6 @@ Project structure:
 │   ├── vmss.bicep
 │   ├── storage.bicep
 ```
-
----
 
 ### 🧱 `modules/network.bicep`
 
@@ -87,8 +79,6 @@ resource vnet 'Microsoft.Network/virtualNetworks@2022-01-01' = {
 
 output subnetId string = vnet.properties.subnets[0].id
 ```
-
----
 
 ### 🖥️ `modules/vmss.bicep`
 
@@ -151,8 +141,6 @@ resource vmss 'Microsoft.Compute/virtualMachineScaleSets@2022-03-01' = {
 }
 ```
 
----
-
 ### 📦 `modules/storage.bicep`
 
 ```bicep
@@ -171,8 +159,6 @@ resource storage 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   }
 }
 ```
-
----
 
 ## 🔧 `main.bicep`: Bringing It All Together
 
@@ -204,8 +190,6 @@ module vmss './modules/vmss.bicep' = {
 }
 ```
 
----
-
 ## 🛠️ Step-by-Step Guide to Deploy Bicep Templates
 
 ### 1. Install Azure CLI and Bicep
@@ -216,15 +200,11 @@ az login
 az account set --subscription "<your-subscription-id>"
 ```
 
----
-
 ### 2. Validate the Template
 
 ```bash
 az deployment group validate   --resource-group myResourceGroup   --template-file main.bicep
 ```
-
----
 
 ### 3. Deploy the Template
 
@@ -232,15 +212,11 @@ az deployment group validate   --resource-group myResourceGroup   --template-fil
 az deployment group create   --resource-group myResourceGroup   --template-file main.bicep
 ```
 
----
-
 ### 4. Decompile Existing ARM to Bicep (Optional)
 
 ```bash
 az bicep decompile --file existing-template.json
 ```
-
----
 
 ## ⚖️ Azure Bicep vs Terraform: Head-to-Head Comparison
 
@@ -260,8 +236,6 @@ az bicep decompile --file existing-template.json
 **Verdict:**  
 - Use **Bicep** if you're focused on **Azure** and want native integration without managing state.  
 - Use **Terraform** if you're **multi-cloud** or need advanced third-party modules and ecosystem support.
-
----
 
 ## 🎯 Final Thoughts
 
