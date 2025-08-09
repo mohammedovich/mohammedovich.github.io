@@ -66,7 +66,7 @@
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] dark:text-slate-200 md:prose-pre:max-w-(--breakpoint-md) prose-code:before:hidden prose-code:after:hidden">
         {{ .Content }}
         {{ if .Site.Params.comments }}
-            {{ partial "./partials/comments.html" . }}
+            {{ partial "comments.html" . }}
         {{ end }}
       </span>
     </article>
