@@ -1,4 +1,3 @@
-comments: true
 googleAnalytics: G-HQF32ZVXNL
 services:
   googleAnalytics:
@@ -79,3 +78,6 @@ title: mohammedovich.github.io
 description: "Site built with Qubt & Hugo"
 images:
   - thumbnail.png
+
+params:
+  comments: true
