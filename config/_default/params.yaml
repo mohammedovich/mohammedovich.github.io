@@ -17,7 +17,6 @@ author:
   greeting: "Welcome to my blog :tada:"
   icon: ":wave:"
 
-
 ############################
 ## Links
 ############################
@@ -28,47 +27,7 @@ links:
   # - website: 
   - x-twitter: https://x.com/mohammedovich
   # - mastodon: 
-  # - linkedin: 
-  # - instagram: 
-  # - reddit: 
-  # - telegram: 
-  # - whatsapp: 
-  # - signal: 
-  # - codepen: 
-  # - dev: 
-  # - email: 
-  # - discord: 
-  # - orcid: 
-  # - slack: 
-  # - stack-overflow: 
-  # - twitch: 
-  # - patreon: 
-  # - soundcloud: 
-  # - dribbble: 
-  # - stack-exchange: 
-  # - tiktok: 
-  # - youtube: 
-  # - keybase: 
-  # - flickr: 
-  # - tumblr: 
-  # - kickstarter: 
-  # - snapchat:
-  # - bluesky: 
-  # - bitbucket: 
-  # - bandcamp: 
-  # - etsy: 
-  # - spotify: 
-  # - pinterest: 
-  # - strava: 
-  # - untappd: 
-  # - skype: 
-  # - medium: 
-  # - foursquare: 
-  # - apple: 
-  # - amazon:
-  # - google:
-  # - paypal:
-  # - windows:
+  - linkedin: https://www.linkedin.com/in/mohammedovich/
 
 ###############################
 ## OpenGraph & Twitter Cards
@@ -78,6 +37,5 @@ title: mohammedovich.github.io
 description: "Site built with Qubt & Hugo"
 images:
   - thumbnail.png
-
 
 comments: true
