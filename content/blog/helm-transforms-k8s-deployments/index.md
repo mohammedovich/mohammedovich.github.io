@@ -2,7 +2,7 @@
 title: "Taming the YAML Beast: How Helm Transforms Kubernetes Deployments"
 subtitle: "From YAML chaos to streamlined deployments with Kubernetes’ package manager"	
 summary: "Deploying applications in Kubernetes often means wrangling multiple YAML files for Deployments, Services, ConfigMaps, and more. Helm simplifies this process by acting as Kubernetes’ package manager, bundling resources into reusable charts and enabling quick installs, easy upgrades, and consistent deployments across environments. This post covers Helm’s core components, real-world usage examples, and quick best practices for DevOps and cloud teams."
-date: 2025-08-09
+date: 2025-08-10
 cardimage: image.jpeg
 draft: true
 featureimage: image.jpeg
