@@ -3,8 +3,10 @@ title: "Demystifying Kubernetes: CRDs, Custom Resources, and the Reconciliation 
 subtitle: "From Definition to Deletion — How Kubernetes CRDs, Custom Resources, and Operators Work Together :gear:"	
 summary: "This post breaks down Kubernetes’ extensibility through Custom Resource Definitions (CRDs) and Custom Resources (CRs), showing how they’re applied, how controllers and operators run reconciliation loops to enforce desired state, and how finalizers ensure safe, graceful deletion of resources. Includes a lifecycle diagram to make the process clear."
 date: 2025-08-09
-cardimage: image.jpeg
-featureimage: image.jpeg
+cardimage: k8s-image.jpeg
+featureimage: k8s-image.jpeg
+tags: ["Kubernetes", "CRDs", "Custom Resources", "Operators", "Reconcilation loop"]
+categories: ["Kubernetes Architecture", "Cloud Native Development", "Kubernetes Extensions"]
 caption:       
 authors:
   - Mohammed: author.png

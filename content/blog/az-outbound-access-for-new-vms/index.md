@@ -3,11 +3,11 @@ title: "Azure Retires Default Outbound Access for New VMs – What You Need to K
 subtitle: "Azure Tightens Security: Say Goodbye to Default Outbound Access for New VMs :cloud:"	
 summary: "Starting September 30, 2025, Azure will retire default outbound internet access for all newly created VMs without explicit connectivity configurations. Existing VMs keep their current behavior, but Microsoft strongly recommends transitioning to explicit outbound methods—such as NAT Gateway, Standard Load Balancer outbound rules, or Public IP addresses—for better security, stability, and predictable networking. This change aligns with Zero Trust principles and eliminates reliance on shifting, shared Microsoft-owned IPs. Cloud engineers, DevOps teams, and architects should audit their environments now to avoid service interruptions and modernize their Azure networking design."
 date: 2025-08-10
-draft: true
+draft: false
 tags: ["Azure", "Cloud Networking", "Security", "DevOps", "Azure Networking"]
 categories: ["Cloud Engineering", "Azure Updates"]
-cardimage: image.jpeg
-featureimage: image.jpeg
+cardimage: az-image.jpeg
+featureimage: az-image.jpeg
 caption:       
 authors:
   - Mohammed: author.png
