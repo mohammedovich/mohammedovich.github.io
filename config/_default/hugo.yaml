@@ -11,7 +11,7 @@ title: Mohammed Ibrahim
 
 googleAnalytics: G-HQF32ZVXNL
 enableEmoji: true
-# disableKinds: ["taxonomy", "term"]
+disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
 
