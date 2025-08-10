@@ -23,10 +23,11 @@ icon: ":coffee:"
 ---
 
 ### Connect with me
-[![Twitter](https://s.magecdn.com/social/tc-x.svg)](https://twitter.com/mohammedovich)
-[![LinkedIn](https://s.magecdn.com/social/tc-linkedin.svg)](https://linkedin.com/in/mohammedovich)
-[![Stack Overflow](https://s.magecdn.com/social/tc-stackoverflow.svg)](https://stackoverflow.com/users/mohammedovich)
-[![Instagram](https://s.magecdn.com/social/tc-instagram.svg)](https://instagram.com/mohammedovich)
+[![X](https://s.magecdn.com/social/32w/tc-x.png)](https://github.com/mohammedovich)
+[![GitHub](https://s.magecdn.com/social/32w/tc-github.png)](https://twitter.com/mohammedovich)
+[![LinkedIn](https://s.magecdn.com/social/32w/tc-linkedin.png)](https://linkedin.com/in/mohammedovich)
+[![Stack Overflow](https://s.magecdn.com/social/32w/tc-stackoverflow.png)](https://stackoverflow.com/users/mohammedovich)
+[![Instagram](https://s.magecdn.com/social/32w/tc-instagram.png)](https://instagram.com/mohammedovich)
 
 ---
 
