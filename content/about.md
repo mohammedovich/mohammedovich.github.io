@@ -23,22 +23,35 @@ icon: ":coffee:"
 ---
 
 ### Connect with me
-[![X](https://s.magecdn.com/social/32w/tc-x.png)](https://github.com/mohammedovich)
-[![GitHub](https://s.magecdn.com/social/32w/tc-github.png)](https://twitter.com/mohammedovich)
+[![GitHub](https://s.magecdn.com/social/32w/tc-github.png)](https://github.com/mohammedovich)
+[![X](https://s.magecdn.com/social/32w/tc-x.png)](https://twitter.com/mohammedovich)
 [![LinkedIn](https://s.magecdn.com/social/32w/tc-linkedin.png)](https://linkedin.com/in/mohammedovich)
 [![Stack Overflow](https://s.magecdn.com/social/32w/tc-stackoverflow.png)](https://stackoverflow.com/users/mohammedovich)
 [![Instagram](https://s.magecdn.com/social/32w/tc-instagram.png)](https://instagram.com/mohammedovich)
 
 ---
 
-### Languages and Tools
-<p align="left">
-<a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="40" height="40"/></a>
-<a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/></a>
-<a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="40" height="40"/></a>
-<!-- Add all remaining tech stack icons here following the same pattern -->
-</p>
+### 🛠 Languages and Tools
+ 
+[![AWS](https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg)](https://aws.amazon.com)  
+[![Azure](https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg)](https://azure.microsoft.com/en-in/)  
+[![Google Cloud](https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg)](https://cloud.google.com)  
+[![Bash](https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg)](https://www.gnu.org/software/bash/)  
+[![Cassandra](https://www.vectorlogo.zone/logos/apache_cassandra/apache_cassandra-icon.svg)](https://cassandra.apache.org/)  
+[![Clojure](https://upload.wikimedia.org/wikipedia/commons/5/5d/Clojure_logo.svg)](https://clojure.org/)  
+[![C#](https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg)](https://www.w3schools.com/cs/)  
+[![CSS3](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)](https://www.w3schools.com/css/)  
+[![Cypress](https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/cypress.svg)](https://www.cypress.io)  
+[![D3.js](https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg)](https://d3js.org/)  
+[![Docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg)](https://www.docker.com/)  
+[![.NET](https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg)](https://dotnet.microsoft.com/)  
+[![Electron](https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg)](https://www.electronjs.org)  
+[![Express](https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg)](https://expressjs.com)  
+[![Figma](https://www.vectorlogo.zone/logos/figma/figma-icon.svg)](https://www.figma.com/)  
+[![Git](https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg)](https://git-scm.com/)  
+[![Go](https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg)](https://golang.org)  
+[![Grafana](https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg)](https://grafana.com)  
+[![GraphQL](https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg)](https://graphql.org)  
 
 ---
 
